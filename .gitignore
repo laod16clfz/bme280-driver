@@ -1,0 +1,18 @@
+# build output
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+
+# Zephyr / west
+.west/
+zephyr/
+
+# editor and probe tooling
+compile_commands.json
+.cache/
+__pycache__/
+*.pyc
